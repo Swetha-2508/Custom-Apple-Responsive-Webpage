@@ -124,3 +124,10 @@ header .container{
 html {
   scroll-behavior: smooth;
 }
+footer{
+    color: black;
+    text-decoration:none;
+}
+.foot a{
+    color: black;
+}
