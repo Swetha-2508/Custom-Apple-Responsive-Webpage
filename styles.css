@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', Sans serif;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.logo img{
+    width: 50px;
+}
+.container{
+    max-width: 100rem;
+    width: 100%;
+    position: relative;
+    padding: 1rem 3rem;
+    margin: 0 auto;    
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo h3{
+    font-weight: 800;
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+.links a{
+    display: inline-block;
+    color: black;
+    transition: 0.3s;
+}
+.links a:hover{
+    color: blue;
+    transform: scale(1.05);
+}
+.btn{
+    background-color: lightblue;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    max-width: 150px;
+    padding: 1rem 2rem;
+    margin: 10px 0px;
+    
+}
+.showcase-area .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-content: center;
+}
+.cta a{
+    transition: 0.3s;
+}
+.cta a:hover{
+    transform: scale(1.05);
+}
+.left h1,h2{
+    padding: 10px 0px;
+}
+.one{
+    text-align: center;
+}
+.showcase-area .right img{
+    height: 600px;
+    width: 500px;
+    margin-left: 150px;
+}
+#iphone .con1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.con1 .left img{
+    height: 600px;
+    width: 400px;
+    margin-left: 50px;
+}
+.con1 .right img{
+    height: 600px;
+    width: 400px;
+    margin-left: 50px;
+}
+.con1 .middle img{
+    height: 600px;
+    width: 400px;
+    margin-left: 50px;
+}
+#mac .con1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+#ipad .con1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.con1 h3{
+    text-align: center;
+    margin-top: 25px;
+}
+html {
+  scroll-behavior: smooth;
+}
