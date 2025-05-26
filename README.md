@@ -15,4 +15,4 @@ Manually built from scratch — no templates or cloning
 
 👤 Author
 Name: Swetha S
-Mail: shwey2508@gmail.com# Custom-Apple-Responsive-Webpage
+Mail: shwey2508@gmail.com
